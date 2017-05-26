@@ -21,9 +21,9 @@ Note on Third User Story: A query for the latest searches was to return the page
 
 Sample Search Strings:
 
-<code>https://fcc-imagesearch-api.herokuapp.com/imageSearchApi/wild puppies</code>  // Returns first 10 search items for searh term.
+<code>https://fcc-imagesearch-api.herokuapp.com/imageSearchApi/wild+puppies</code>  // Returns first 10 search items for searh term.
                    
-<code>https://fcc-imagesearch-api.herokuapp.com/imageSearchApi/wild puppies?offset=2</code>  // Returns first 10 items after removal of first 20, in this example.
+<code>https://fcc-imagesearch-api.herokuapp.com/imageSearchApi/wild+puppies?offset=2</code>  // Returns first 10 items after removal of first 20, in this example.
 
 <code>https://fcc-imagesearch-api.herokuapp.com/imageSearchApi/latest</code>  // Returns last 10 most recent searches.
                 
